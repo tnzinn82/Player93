@@ -1,0 +1,32 @@
+{
+  "name": "playerimp",
+  "version": "1.0.0",
+  "description": "Player de música estilo Spotify com login, playlists e download via YouTube",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "music",
+    "spotify",
+    "player",
+    "youtube",
+    "yt-dlp",
+    "login",
+    "stream"
+  ],
+  "author": "PlayerImp Dev",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
+    "cookie-parser": "^1.4.6",
+    "express": "^4.18.2",
+    "fs-extra": "^11.2.0",
+    "lowdb": "^6.0.1",
+    "node-fetch": "^3.3.2",
+    "path": "^0.12.7",
+    "uuid": "^9.0.1",
+    "yt-dlp-exec": "^1.1.5"
+  }
+}
